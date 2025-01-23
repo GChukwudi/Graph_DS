@@ -25,15 +25,18 @@ int main() {
     addEdge(graph, 1, 2);
     addEdge(graph, 1, 3);
     addEdge(graph, 2, 4);
+    addEdge(graph, 2, 5);
+    addEdge(graph, 3, 4);
     addEdge(graph, 3, 6);
-    addEdge(graph, 4, 5);
     addEdge(graph, 4, 7);
+    addEdge(graph, 5, 7);
     addEdge(graph, 5, 9);
     addEdge(graph, 6, 8);
-    addEdge(graph, 7, 8);
-    addEdge(graph, 7, 9);
+    addEdge(graph, 7, 10);
+    addEdge(graph, 8, 10);
     addEdge(graph, 9, 11);
-    addEdge(graph, 9, 12);
+    addEdge(graph, 10, 12);
+    addEdge(graph, 11, 12);
 
     printf("The following is the Depth First Traversal starting from vertex 1: \n");
 

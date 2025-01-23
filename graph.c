@@ -25,7 +25,7 @@ Graph* createGraph(int vertices) {
 }
 
 void addEdge(Graph* graph, int src, int dest) {
-    Node* newNode = createGraph(dest);
+    Node* newNode = createNode(dest);
     newNode->next = graph->adjLists[src];
     graph->adjLists[src] = newNode;
 
