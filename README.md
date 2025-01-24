@@ -1,6 +1,8 @@
 ## Graph_DS
 
-Graph_DS is a C-based implementation of essential graph traversal algorithms, involving Breadth-First Search (BFS) and Depth-First Search (DFS). This project demonstrates fundamental graph data structure operations and traversal techniques.
+Graph_DS is a C-based implementation of essential graph traversal algorithms, involving Breadth-First Search (BFS) and Depth-First Search (DFS). This project demonstrates fundamental graph data structure operations and traversal techniques using the graph below.
+
+![alt text](image.png)
 
 ### Features
 * Graph Traversal Algorithms:
